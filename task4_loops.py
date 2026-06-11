@@ -54,7 +54,6 @@ for row in video_game_sales:
     if row[PUBLISHER] == 'Nintendo':      # publisher column
         nintendo_games.append(row[NAME])   # game name column
 
-print(nintendo_games)
 print(len(nintendo_games))
 for game in nintendo_games:
     print(game)
